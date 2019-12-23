@@ -15,8 +15,8 @@ import javax.swing.JOptionPane;
 
 public class Correo {
 
-    public String correoRemitente = "cpaucarcolonia@gmail.com";
-    public String passwordRemitente = "wolverine5";
+    public String correoRemitente = "";
+    public String passwordRemitente = "";
     
     public void Conectar(String correoReceptor, String asunto, String mensaje) throws MessagingException{
         try {
